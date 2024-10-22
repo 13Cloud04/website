@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question Paper</title>
+    <style>
+                body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9f5fb;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .question {
+            margin-bottom: 25px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f1f9ff;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .question:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .question span {
+            display: block;
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #0f457c;
+        }
+
+        .options {
+            margin-top: 10px;
+        }
+
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            font-size: 1em;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .options label:hover {
+            background-color: #d1ecf1;
+            transform: scale(1.02);
+        }
+
+        .instructions {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+
+        .instructions p {
+            margin: 0;
+            font-weight: bold;
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            font-size: 1.3em;
+            background-color: #2980b9;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2471a3;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+ 
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Multiple Choice Question Paper</h1>
+        <div class="instructions">
+            <p>Instructions:</p>
+            <ul>
+                <li>Select the best answer for each question.</li>
+                <li>Each question has only one correct answer.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <span>1. What Mammals have the ability to fly?</span>
+            <div class="options">
+                <label><input type="radio" name="q1" value="A"> A. Bat</label>
+                <label><input type="radio" name="q1" value="B"> B. Kangaroo</label>
+                <label><input type="radio" name="q1" value="C"> C. Penguin</label>
+                <label><input type="radio" name="q1" value="D"> D. Elephant</label>
+            </div>
+        </div>
+        <div class="question">
+            <span>2. What animal has the most bones ?</span>
+            <div class="options">
+                <label><input type="radio" name="q2" value="A"> A. Lion</label>
+                <label><input type="radio" name="q2" value="B"> B. Tiger</label>
+                <label><input type="radio" name="q2" value="C"> C. Python</label>
+                <label><input type="radio" name="q2" value="D"> D. Bear</label>
+            </div>
+        </div>
+        <div class="question">
+            <span>3. Which animal is slower than the turtle?</span>
+            <div class="options">
+                <label><input type="radio" name="q3" value="A"> A. Snake</label>
+                <label><input type="radio" name="q3" value="B"> B. Snail</label>
+                <label><input type="radio" name="q3" value="C"> C. Crocodile</label>
+                <label><input type="radio" name="q3" value="D"> D. Fox</label>
+            </div>
+        </div>
+        <div class="question">
+            <span>4. Which animal lives the longest?</span>
+            <div class="options">
+                <label><input type="radio" name="q3" value="A"> A. Tortoise</label>
+                <label><input type="radio" name="q3" value="B"> B. Elephant</label>
+                <label><input type="radio" name="q3" value="C"> C. Whale</label>
+                <label><input type="radio" name="q3" value="D"> D. Camel</label>
+            </div>
+        </div>
+        <div class="question">
+            <span>5. Which animal is heavier than a pig?</span>
+            <div class="options">
+                <label><input type="radio" name="q5" value="A"> A. Monkey</label>
+                <label><input type="radio" name="q5" value="B"> B. Hippopotamus</label>
+                <label><input type="radio" name="q5" value="C"> C. Cheetah</label>
+                <label><input type="radio" name="q5" value="D"> D. Panther</label>
+            </div>
+        </div>
+        <div class="question">
+            <span>6. What is the fastest animal?</span>
+            <div class="options">
+                <label><input type="radio" name="q6" value="A"> A. Zebra</label>
+                <label><input type="radio" name="q6" value="B"> B. Cheetah</label>
+                <label><input type="radio" name="q6" value="C"> C. Ostrich</label>
+                <label><input type="radio" name="q6" value="D"> D. Snake</label>
+            </div>
+        </div>
+        <div class="question">
+            <span>7. Which is the tallest animal?</span>
+            <div class="options">
+                <label><input type="radio" name="q7" value="A"> A. Camel</label>
+                <label><input type="radio" name="q7" value="B"> B. Zebra</label>
+                <label><input type="radio" name="q7" value="C"> C. Giraffe</label>
+                <label><input type="radio" name="q7" value="D"> D. Ostrich</label>
+            </div>
+        </div>
+        <div class="question">
+          <span>8.Which animal can sleep for 3 years?</span>
+            <div class="options">
+                <label><input type="radio" name="q8" value="A"> A. Bear</label>
+                <label><input type="radio" name="q8" value="B"> B. Snail</label>
+                <label><input type="radio" name="q8" value="C"> C. Sloth</label>
+                <label><input type="radio" name="q8" value="D"> D. Tortoise</label>
+            </div>
+        </div>
+        <div class="question">
+            <span>9. Which animal has the most brains?</span>
+            <div class="options">
+                <label><input type="radio" name="q9" value="A"> A. Octopus</label>
+                <label><input type="radio" name="q9" value="B"> B. Seahorse</label>
+                <label><input type="radio" name="q9" value="C"> C. Monkey</label>
+                <label><input type="radio" name="q9" value="D"> D. Dolphins</label>
+            </div>
+        </div>
+        <div class="question">
+            <span>10. How many arms does a Starfish have?</span>
+            <div class="options">
+                <label><input type="radio" name="q10" value="A"> A. One</label>
+                <label><input type="radio" name="q10" value="B"> B. Two</label>
+                <label><input type="radio" name="q10" value="C"> C. Four</label>
+                <label><input type="radio" name="q10" value="D"> D. Five</label>
+            </div>
+        </div>
+    </div>
+                  <button type="button">Submit</button>
+</body>
+</html>
